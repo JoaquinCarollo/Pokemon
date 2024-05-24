@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="batalla.css">
+    <title>Batalla</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</head>
+<body>
+    <div class="oponente"></div>
+    <div class="pokemoneAdversario" id="pokemonRival"></div>
+    <div id="barraDeVidaUn"></div>
+    <section class="pokemonUsuario">
+        <div class="pokebolas">
+            <button class="pokebolaBoton" id="pokemonUno"><img src="Imagenes y gif/pokebola.jpg" alt="" class="pokebola"></button>
+            <button class="pokebolaBoton" id="pokemonDos"><img src="Imagenes y gif/pokebola.jpg" alt="" class="pokebola"></button>
+            <button class="pokebolaBoton" id="pokemonTres"><img src="Imagenes y gif/pokebola.jpg" alt="" class="pokebola"></button>
+        </div>
+        <div id="pokemon"></div>
+    </section>
+    <div class="barraDeVidaDos" id="videDelUsuario"></div>
+    <section class="movimientosDelUsuario">
+        <div class="movimientosUnoYDos" id="ataquesUnoYDos">
+        </div>
+        <div class="movimientosTresYCuatro" id="ataquesTresYCuatro">
+        </div>
+    </section>
+    <script src="Js/estadisticas.js"></script>
+    <script src="Js/batalla.js"></script>
+    <script src="Js/funciones.js"></script>
+    <script src="Js/eventos.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+@font-face{
+    font-family: "pixeles";
+    src: url(Tipografía/Minecraft.ttf);
+}
+*{
+    font-family: "pixeles";
+}
+.pokebolaBoton{
+    display: block;
+    width: 3rem;
+}
+.pokebola{
+    width: 2rem;
+}
+.pokemonUsuario{
+    display: flex;
+}
+.movimientosTresYCuatro{
+    margin-bottom: 200px;
+}
+.barraUsuario{
+    font-size: 40px;
+    padding-left: 30%;
+    margin-bottom: 20px;
+}
+.barraEvee{
+    font-size: 40px;
+    padding-left: 55%;
+}
+.eevee{
+    padding-left: 50%;
+    width: 10%;
+}
+.vidaUno{
+    width: 30px;
+}
+.pikachu{
+    padding-left: 50%;
+    width: 33%;
+}
+.snorlax{
+    padding-left: 80%;
+    width: 45%;
+}
+.ataque{
+    width: 100px;
+    height: 50px;
+}
+.movimientosUnoYDos{
+    margin-left: 30%;
+    margin-top: 0px;
+}
+.movimientosTresYCuatro{
+    margin-left: 30%;
+    margin-top: 0;
+}
+.comentario{
+    font-size: 40px;
+}
+.usuario{
+    padding-bottom: 50px;
+}
